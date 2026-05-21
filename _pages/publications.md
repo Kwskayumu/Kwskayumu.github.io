@@ -74,6 +74,7 @@ author_profile: true
     Considering Observation Uncertainty via Correspondence Weighting in Optical Navigation for
     Cooperative Proximity Operations," 77th International Astronautical Congress, Oct. 2026.
     *(accepted)*
+{% comment %}
 17. M. Matsushita, Y. Nakagawa, H. Ohki, S. Tsuruya, K. Nakagawa, K. Amakawa, A. Kushima,
     M. Shigematsu, **A. Kawasaki**, H. Yamamoto, J. Takada, Y. Takao, A. K. Sugihara,
     O. Mori, T. Kusumoto, Y. Ohtsuki, A. Watanabe, Y. Satou, Y. Miyazaki, N. Okuizumi, K. Hamatsuki,
@@ -81,3 +82,4 @@ author_profile: true
     M. Takata, H. Kawahara, J. Taguchi, S. Yokohori, "On-Orbit Operation Results of HELIOS-R: A
     Lightweight Deployable Membrane Structure with Power Generation and Antenna Functions," 70th
     Conference on Space Sciences and Technology, Nov. 2026. *(accepted)*
+{% endcomment %}
