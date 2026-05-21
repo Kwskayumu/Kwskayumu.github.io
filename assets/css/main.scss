@@ -1,0 +1,72 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+
+    "vendor/font-awesome/fontawesome",
+    "vendor/font-awesome/solid",
+    "vendor/font-awesome/brands"
+;
+
+/* --- Custom overrides --- */
+
+/* Body-text links: muted dark gray with underline. Excludes nav, sidebar
+   social icons, footer, and other UI chrome (those have their own colors). */
+.page__content a:not(.btn) {
+  color: #444;
+  text-decoration: underline;
+}
+.page__content a:not(.btn):hover {
+  color: #000;
+}
+
+/* Darker horizontal divider under section headings (h2) on content pages. */
+.page__content h2 {
+  border-bottom-color: #888;
+}
+
+/* Project images: uniform sizing rule across all project figures. */
+.page__content img.project-figure {
+  display: block;
+  max-width: 60%;
+  height: auto;
+  margin: 1em auto;
+}
+/* 0.8x variant for images that look too large at the default width. */
+.page__content img.project-figure--sm {
+  max-width: 48%;
+}

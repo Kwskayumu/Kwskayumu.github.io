@@ -1,0 +1,8 @@
+# Header navigation. "Home" is the front page (permalink: /).
+
+main:
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Publications"
+    url: /publications/
