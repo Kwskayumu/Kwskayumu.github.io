@@ -2,6 +2,7 @@
 permalink: /
 title: "Self Introduction"
 seo_title: "川﨑歩 (Kawasaki Ayumu)"
+description: "Personal site of Ayumu Kawasaki — M.Eng. student in Aeronautics and Astronautics at the University of Tokyo, working on initial relative orbit determination and small-body proximity operations at the Astrodynamics and Space Systems Laboratory (ASSL/ISAS-JAXA)."
 author_profile: true
 redirect_from:
   - /about/
