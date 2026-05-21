@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Self Introduction"
+seo_title: "川﨑歩 (Kawasaki Ayumu)"
 author_profile: true
 redirect_from:
   - /about/
