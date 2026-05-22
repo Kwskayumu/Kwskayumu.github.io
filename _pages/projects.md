@@ -28,8 +28,8 @@ resource distributions.
 *ISAS/JAXA · Jan. 2026 – present*
 
 Serving as a Research Assistant on JAXA's [Hayabusa2 extended mission](https://www.hayabusa2.jaxa.jp/en/)
-(2001 CC21 flyby), conducting telemetry-based spacecraft health monitoring and supporting mission
-operations.
+(Torifune (2001 CC21) flyby), conducting telemetry-based spacecraft health monitoring and supporting
+mission operations.
 
 ## HELIOS-R — C&DH subsystem
 *ISAS/JAXA on-orbit technology demonstration project · Apr. 2025 – present*
